@@ -18,7 +18,7 @@ export async function sendEmail(formData: FormData) {
       from: "Your Portfolio Message <onboarding@resend.dev>",
       to: "sagar.kunwar24@gmail.com",
       subject: `New message from ${name}`,
-      text: `Name: ${name}\n\n\nEmail: ${email}\n\n\nMessage: ${message}`,
+      text: `Name: ${name}\n\nEmail: ${email}\n\nMessage: ${message}`,
     });
 
     if (error) {
