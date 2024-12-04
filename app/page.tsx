@@ -22,6 +22,11 @@ export default function Home() {
         <Button asChild>
           <Link href="https://www.github.com/sagarkunwarc">GitHub</Link>
         </Button>
+        <Button asChild>
+          <Link href="https://partner.cloudskillsboost.google/public_profiles/f0d3c4be-0bcb-43a5-8665-bbdaa63b022e">
+            Googel Cloud Skills Boost
+          </Link>
+        </Button>
       </div>
     </div>
   );
