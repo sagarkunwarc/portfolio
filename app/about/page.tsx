@@ -11,11 +11,11 @@ export default function About() {
       </p>
       <p className="mb-4">My expertise includes:</p>
       <ul className="list-disc list-inside mb-4">
-        <li>Front-end development with React and Next.js</li>
+        <li>Front-end development with React, Vue JS, Angular and Next.js</li>
         <li>Back-end development with Node.js, Express, Spring Boot</li>
         <li>Database design and management (SQL and NoSQL)</li>
         <li>RESTful API development</li>
-        <li>Cloud services (AWS, Google Cloud)</li>
+        <li>Cloud services (AWS, Google Cloud, PCF)</li>
         <li>DevOps and CI/CD pipelines</li>
       </ul>
       <p>
