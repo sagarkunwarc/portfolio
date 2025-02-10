@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./components/ui/button";
 
-export default function Home() {
+export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)]">
       <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
@@ -10,12 +10,6 @@ export default function Home() {
         development and a love for creating innovative solutions.
       </p>
       <div className="space-x-4">
-        <Button asChild>
-          <Link href="/about">Learn More About Me</Link>
-        </Button>
-        <Button asChild>
-          <Link href="/contact">Get in Touch</Link>
-        </Button>
         <Button asChild>
           <Link href="https://www.linkedin.com/in/sagarkunwar">LinkedIn</Link>
         </Button>
