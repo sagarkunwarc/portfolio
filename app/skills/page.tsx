@@ -3,17 +3,17 @@ import { Badge } from "../components/ui/badge";
 const skills = [
   {
     category: "Languages",
-    items: ["JavaScript", "TypeScript", "Python", "Java"],
+    items: ["JavaScript", "TypeScript", "Python", "Java", "C#","SQL"],
   },
   {
     category: "Frontend",
-    items: ["React", "Next.js", "Vue.js", "HTML5", "CSS3", "Sass"],
+    items: ["React", "Next.js", "Vue.js", "HTML5", "CSS3", "Sass", "Vite"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "Django", "Spring Boot"],
+    items: ["Node.js", "Express", "Django", "Spring Boot", "Spring WebFlux", "Spring MVC"],
   },
-  { category: "Databases", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"] },
+  { category: "Databases", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Oracle", "DB2", "Couchbase", "SQL Server"] },
   {
     category: "DevOps",
     items: ["Docker", "Kubernetes", "Jenkins", "GitLab CI"],
