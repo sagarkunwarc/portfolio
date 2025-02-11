@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "./components/ui/button";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -11,14 +12,16 @@ export default function Hero() {
       </p>
       <div className="space-x-4">
         <Button asChild>
-          <Link href="https://www.linkedin.com/in/sagarkunwar">LinkedIn</Link>
+          <Link
+            href="https://www.linkedin.com/in/sagarkunwar"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={24} />
+          </Link>
         </Button>
         <Button asChild>
-          <Link href="https://www.github.com/sagarkunwarc">GitHub</Link>
-        </Button>
-        <Button asChild>
-          <Link href="https://partner.cloudskillsboost.google/public_profiles/f0d3c4be-0bcb-43a5-8665-bbdaa63b022e">
-            Googel Cloud Skills Boost
+          <Link href="https://www.github.com/sagarkunwarc" aria-label="GitHub">
+            <FaGithub size={24} />
           </Link>
         </Button>
       </div>
