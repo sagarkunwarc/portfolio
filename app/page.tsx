@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Button } from "./components/ui/button";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-export default function Home() {
+export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)]">
       <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
@@ -11,20 +12,16 @@ export default function Home() {
       </p>
       <div className="space-x-4">
         <Button asChild>
-          <Link href="/about">Learn More About Me</Link>
+          <Link
+            href="https://www.linkedin.com/in/sagarkunwar"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={24} />
+          </Link>
         </Button>
         <Button asChild>
-          <Link href="/contact">Get in Touch</Link>
-        </Button>
-        <Button asChild>
-          <Link href="https://www.linkedin.com/in/sagarkunwar">LinkedIn</Link>
-        </Button>
-        <Button asChild>
-          <Link href="https://www.github.com/sagarkunwarc">GitHub</Link>
-        </Button>
-        <Button asChild>
-          <Link href="https://partner.cloudskillsboost.google/public_profiles/f0d3c4be-0bcb-43a5-8665-bbdaa63b022e">
-            Googel Cloud Skills Boost
+          <Link href="https://www.github.com/sagarkunwarc" aria-label="GitHub">
+            <FaGithub size={24} />
           </Link>
         </Button>
       </div>
