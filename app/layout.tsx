@@ -12,7 +12,7 @@ import Hero from "./page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Sagar Kunwar - Software Engineer Portfolio",
+  title: "Sagar Kunwar - Java Software Engineer",
   description:
     "A portfolio showcasing my skills and projects as a software engineer",
 };
