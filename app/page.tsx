@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./components/ui/button";
 import { FaDev, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaMedium,FaHashnode } from "react-icons/fa6";
+import {FaHashnode } from "react-icons/fa6";
 
 export default function Hero() {
   return (
