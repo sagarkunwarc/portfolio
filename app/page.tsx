@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "./components/ui/button";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDev, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaMedium,FaHashnode } from "react-icons/fa6";
 
 export default function Hero() {
   return (
@@ -22,6 +23,16 @@ export default function Hero() {
         <Button asChild>
           <Link href="https://www.github.com/sagarkunwarc" aria-label="GitHub">
             <FaGithub size={24} />
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link href="https://hashnode.com/@sagarkunwar" aria-label="Hashnode">
+            <FaHashnode size={24} />
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link href="https://dev.to/sagarkunwar" aria-label="Dev">
+            <FaDev size={24} />
           </Link>
         </Button>
       </div>
