@@ -35,6 +35,20 @@ export default function Hero() {
             <FaDev size={24} />
           </Link>
         </Button>
+        <Button asChild>
+          <Link href="https://bento.me/sagarkunwar" aria-label="Bento">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="24"
+              height="24"
+            >
+              {/* Insert the Bento SVG path here */}
+              <path d="M2 12l9 9 9-9-9-9-9 9z" />
+            </svg>
+          </Link>
+        </Button>
       </div>
     </div>
   );
